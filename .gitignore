@@ -1,0 +1,68 @@
+# Binaries
+server
+seed
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Sensitive certificates and keys
+certs/*.key
+certs/*.pem
+certs/*.crt
+certs/*.csr
+!certs/.gitkeep
+
+# Database data
+*.db
+*.sqlite
+*.sqlite3
+postgres_data/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Docker volumes (if mounted locally)
+docker-volumes/
+
+# Build artifacts
+dist/
+build/
+
+# Coverage reports
+coverage.html
+coverage.txt
+
+# Air (live reload) tmp directory
+tmp/
+
